@@ -1,0 +1,171 @@
+row{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar{
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #2E2C2C;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 1;
+
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+    padding-right: 3% !important;
+}
+
+.contact-image{
+    background-image: url("../image/boxing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel{
+    background-image: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row !important;
+}
+
+.slogant{
+    font-family: Degular, sans-serif;
+    font-weight: 800;
+    margin-bottom: 2%;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+.btn-inscription{
+    text-transform: uppercase;
+    background-color: #F1EF17 !important;
+    color: #2E2C26 !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    border: 1px solid;
+    border-radius: 100px !important;
+}
+.presentation{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #C9C5BF;
+}
+
+.presentation-titre{
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.caracteristique-title{
+    font-size:12px;
+    font-weight: 500;
+}
+
+.caracteristique-partenaire-title, 
+.caracteristique-localisation-title, 
+.caracteristique-niveau-title,
+.caracteristique-sessions-title{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-links ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 5px 0;
+    margin-right: 25px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social a {
+    margin: 0 10px;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    
+    .footer-social a {
+        margin: 10px;
+    }
+}
+
+.contact-msg-title{
+    font-size: 28px;
+    font-family: 'Suisse Intl', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+}
+
+.contact-form{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 11% !important;
+    padding-right: 11% !important;
+}
+
+.btn-connexion{
+    background-color: #2E2C2C !important;
+    color: white !important;
+}
