@@ -16,6 +16,28 @@ row{
 
 }
 
+.logo-registration{
+    display: flex ;
+    justify-content: center;
+}
+
+.registration{
+    margin-bottom: 10%;
+}
+
+.form-register{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.form-input-bloc{
+    margin-bottom: 4%;
+}
+
+.form-btn-bloc{
+    margin-top: 7%;
+    text-align: center;
+}
 .nav-link{
     color: white;
     font-weight: bold;
@@ -23,6 +45,20 @@ row{
 }
 
 .contact-image{
+    background-image: url("../image/boxing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-registration{
+    width: 100%;
+    border-radius: 100px !important;
+    background-color: #2E2C2C !important;
+    margin-bottom: 3%;
+    color: white !important;
+}
+
+.backgound-registration{
     background-image: url("../image/boxing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
