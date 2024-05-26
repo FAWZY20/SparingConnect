@@ -10,7 +10,14 @@ public class PageControler {
     @GetMapping("/")
     public ModelAndView home(){
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("index");
+        mav.setViewName("view/index");
+        return mav;
+    }
+
+    @GetMapping("/registrer")
+    public ModelAndView register(){
+        ModelAndView mav = new ModelAndView();
+        mav.setViewName("view/registration");
         return mav;
     }
 
