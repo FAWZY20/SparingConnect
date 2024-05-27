@@ -8,9 +8,21 @@
     <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-<div th:replace="fragment/header :: header"></div>
- <p>bravo vous ete inscrit</p>
-<div th:replace="fragment/footer :: footer"></div>
+    <div th:replace="fragment/header :: header"></div>
+    <div class="container">
+        <div class="row succes-bloc">
+            <div class="card">
+                <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto; display: flex; justify-content: center;">
+                    <i class="checkmark">✓</i>
+                </div>
+                <h1>Success</h1>
+                <p>Félicitations, vous êtes inscrits.<br />Vous pouvez vous connecter <span><a href="">ici</a></span></p>
+            </div>
+        </div>
+    </div>
+    <div th:replace="fragment/footer :: footer"></div>
 </body>
+
 </html>
