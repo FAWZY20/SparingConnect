@@ -16,22 +16,22 @@
                 <img th:src="@{/image/logo.png}" width="300" height="300" class="d-inline-block align-top" alt="">
             </div>
             <div class="form-register">
-                <form>
+                <form th:action="@{/registrerForm}" th:object="${user}" method="post">
                     <div class="form-input-bloc">
-                        <input class="form-control form-control-lg input-registration" type="text" placeholder="Prénom">
+                        <input class="form-control form-control-lg input-registration" type="text" placeholder="Prénom" th:field="*{prenom}">
                     </div>
                     <div class="form-input-bloc">
-                        <input class="form-control form-control-lg input-registration" type="text" placeholder="Nom de famille">
+                        <input class="form-control form-control-lg input-registration" type="text" placeholder="Nom de famille" th:field="*{nom}">
                     </div>
                     <div class="form-input-bloc">
-                        <input class="form-control form-control-lg input-registration" type="email" placeholder="E-mail">
+                        <input class="form-control form-control-lg input-registration" type="email" placeholder="E-mail" th:field="*{mail}">
                     </div>
                     <div class="form-input-bloc">
-                        <input class="form-control form-control-lg input-registration" type="password" placeholder="Mot de passe">
+                        <input class="form-control form-control-lg input-registration" type="password" placeholder="Mot de passe" th:field="*{password}">
                     </div>
                     <div class="form-btn-bloc">
                         <div>
-                            <button type="submit" class="btn  btn-registration">Créer un compte</button>
+                            <button type="submit" class="btn  btn-registration" value="Register">Créer un compte</button>
                         </div>
                         <div>
                             <p>Vous avez déjà un compte? <span><a href="">Se connecter</a></span> </p>

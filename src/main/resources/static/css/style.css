@@ -16,6 +16,11 @@ row{
 
 }
 
+.contact-bloc{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 .logo-registration{
     display: flex ;
     justify-content: center;
@@ -135,7 +140,6 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
 }
 
 .footer-logo img {
@@ -198,7 +202,7 @@ footer {
     padding-top: 7%;
     padding-bottom: 7%;
     padding-left: 11% !important;
-    padding-right: 11% !important;
+    padding-right: 9% !important;
 }
 
 .btn-connexion{

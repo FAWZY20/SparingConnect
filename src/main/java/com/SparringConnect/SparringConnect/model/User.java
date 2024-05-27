@@ -3,11 +3,12 @@ package com.SparringConnect.SparringConnect.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="User")
+@Table(name="utilisateur")
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "SEQ")
+    @SequenceGenerator(name = "SEQ", sequenceName = "vehicle_seq", allocationSize = 1)
     private long id;
 
     @Column(name = "nom")
