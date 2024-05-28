@@ -10,7 +10,8 @@ import org.springframework.web.servlet.ModelAndView;
 public class PageControler {
 
     @GetMapping("/")
-    public ModelAndView home(){
+    public ModelAndView home(Model model){
+        model.addAttribute("user", new User());
         ModelAndView mav = new ModelAndView();
         mav.setViewName("view/index");
         return mav;
