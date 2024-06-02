@@ -10,6 +10,50 @@
 </head>
 
 <body>
-<p>test</p>
+    <div th:replace="fragment/headerAdmin :: headerAdmin"></div>
+    <div class="admin-body">
+        <div class="row">
+            <div class=" col-10 messageBienvenu-bloc">
+                <p class="messageBienvenu-text">Nous sommes contents de vous revoir, <span th:text="${user.prenom}"></span> 👋</p>
+            </div>
+        </div>
+        <div>
+            <div class="row admin-bloc">
+                <div>
+                    <div>
+                        <p class="title-sport">Trouvez des partenaires de sparring en boxe</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="title-sport">Trouvez des partenaires pour le sparring en Kickboxing</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="title-sport">Trouvez des partenaires pour des sessions de sparring en Muay Thai</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="title-sport">Participez à des sparrings en MMA (Mixed Martial Arts)</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

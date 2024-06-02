@@ -79,8 +79,10 @@ row{
 }
 
 .navbar-nav{
+    align-items: center;
     display: flex;
     flex-direction: row !important;
+    justify-content: end;
 }
 
 .slogant{
@@ -131,7 +133,6 @@ row{
 footer {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
     text-align: center;
 }
 
@@ -221,7 +222,6 @@ i {
     padding: 60px;
     border-radius: 4px;
     box-shadow: 0 2px 3px #C8D0D8;
-    margin-top: 20%;
     margin-bottom: 20%;
     display: flex;
     flex-direction: column;
@@ -233,3 +233,98 @@ i {
     display: flex;
     justify-content: center;
   }
+
+  .nav-admin{
+    margin-right: 23%;
+  }
+
+  .admin-body{
+    padding-top: 8%;
+  }
+
+  .admin-bloc{
+    margin-left: 4% !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-sport{
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+  .messageBienvenu-bloc{
+    margin-left: 4% !important;
+    background-image: url(../image/backRed.jpg);
+    border-radius: 20px;
+    padding: 2%;
+    padding-left: 2% !important;
+    margin-bottom: 2%;
+  }
+
+  .messageBienvenu-text{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .img-account-profile {
+    padding-bottom: 5%;
+    height: 10rem;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}
+.card .card-header {
+    font-weight: 500;
+}
+.card-header:first-child {
+    border-radius: 0.35rem 0.35rem 0 0;
+}
+.card-header {
+    padding: 1rem 1.35rem;
+    margin-bottom: 0;
+    background-color: rgba(33, 40, 50, 0.03);
+    border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+}
+.form-control, .dataTable-input {
+    display: block;
+    width: 100%;
+    padding: 0.875rem 1.125rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #69707a;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c5ccd6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.35rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.nav-borders .nav-link.active {
+    color: #0061f2;
+    border-bottom-color: #0061f2;
+}
+.nav-borders .nav-link {
+    color: #69707a;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.profil-bloc{
+    padding-top: 8%;
+}
